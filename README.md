@@ -54,10 +54,11 @@ Durante la pandemia por el COVID-19 y a raíz de las restricciones sanitarias im
   - Placa: COA001
   - Placa: COA002
 - Hiace: Hasta 12 pasajeros
-- Placa: HIA001
-- Placa: HIA002
-- Placa: HIA003
-- Placa: HIA004
+  - Placa: HIA001
+  - Placa: HIA002
+  - Placa: HIA003
+  - Placa: HIA004
+
 - H1: Hasta 6 pasajeros
   - Placa: HON001
   - Placa: HON002
@@ -84,19 +85,19 @@ Para solucionar este problema, la empresa ha contactado a los estudiantes del cu
 1. Construya una interfaz llamada Object, esta es la superclase por excelencia de todo el proyecto así que todas las clases heredan de ella. 
    1. Debe tener como métodos virtuales puros
       1. Método toString que retorna un string con la representación del objeto
-   2. Configuración de la flota de transporte
+2. Configuración de la flota de transporte
      1. Tipos de buses: 
            1. Permitir la carga de distintos tipos de buses
      2. Rutas de viaje
            1. Permitir la carga de las rutas de viaje
                2. Tener la opción de asignar los buses a las rutas de viaje, por ejemplo: la ruta al Volcán Arenal podría tener dos tipos de buses asignados: una Buseta y un H1. 
-   3. Reserva de tiquetes
+3. Reserva de tiquetes
      1. Reserva de tiquetes
            1. Permitir reservar y emitir un tiquete de viaje, el mismo debe llevar el número de asiento y el bus correspondiente.
-   4. Reportes
+4. Reportes
      1. Mostrar todos los tiquetes emitidos indicando la ruta y el bus
      2. Mostrar la disponibilidad de pasajeros por ruta de viaje
-   5. Pruebas de Unidad
+5. Pruebas de Unidad
      1. Esta sección de la aplicación maneja toda la interacción con el usuario
      2. Se evalúan los procesos y la interacción de los resultados mediante las pruebas de unidad 
 
@@ -128,7 +129,7 @@ Usted debe aplicar los siguientes conceptos para cumplir con los requerimientos 
 
 <img src="Reserva de tiquetes.png" alt="Reserva de tiquetes" style="zoom:50%;" />
 
-<img src="Reserva de tiquetes impresión-1.png" alt="Reserva de tiquetes impresión-1" style="zoom:50%;" />
+<img src="Reserva de tiquetes impresión.png" alt="Reserva de tiquetes impresión" style="zoom:50%;" />
 
 <img src="Menú Reportes.png" alt="Menú Reportes" style="zoom:50%;" />
 
